@@ -1,0 +1,7 @@
+spring:
+  temporal:
+    test-server:
+      enabled: true
+    namespace: default
+    startWorkers: false
+

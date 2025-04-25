@@ -1,0 +1,16 @@
+
+spring:
+    application:
+        name: versioning
+
+
+    temporal:
+        connection:
+            target: localhost:7233
+        namespace: default
+        workers-auto-discovery:
+            packages:
+                - com
+
+server:
+    port: 8999
